@@ -8,7 +8,9 @@ Welcome {{name}}
   <h2>{{2+2}}</h2>
   <h2>{{"welcome " + name }}</h2>
   <h2>{{ name.length }}</h2>
-  <h2>{{ name.toUpperCase()}}</h2>`
+  <h2>{{ name.toUpperCase() }}</h2>
+  <h2>{{ greetUser() }}</h2>
+  `
   ,
   styles: [` div{
   color: red} `]
@@ -19,5 +21,8 @@ export class TestComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  greetUser(){
+    return "Hello " +this.name;
+  }
 }
+

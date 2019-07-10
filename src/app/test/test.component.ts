@@ -2,8 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test',
-  templateUrl: './test.component.html',
-  styleUrls: ['./test.component.css']
+  template: `<div>
+  npm
+  </div>`,
+  styles: [` div{
+  color: red} `]
 })
 export class TestComponent implements OnInit {
 

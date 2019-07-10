@@ -7,7 +7,9 @@ Welcome {{name}}
   </div>
   <h2>{{2+2}}</h2>
   <h2>{{"welcome " + name }}</h2>
-  <h2>{{ name.length }}</h2>`,
+  <h2>{{ name.length }}</h2>
+  <h2>{{ name.toUpperCase()}}</h2>`
+  ,
   styles: [` div{
   color: red} `]
 })

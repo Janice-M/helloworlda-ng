@@ -4,7 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-test',
   template: `<div>
 Welcome {{name}}
-  </div>`,
+  </div>
+  <h2>{{2+2}}</h2>
+  <h2>{{"welcome " + name }}</h2>`,
   styles: [` div{
   color: red} `]
 })
